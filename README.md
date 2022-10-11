@@ -55,11 +55,11 @@ The following tables describe the values you need to set as parameter
     "ipAddresses": [
       "172.28.48.1"
     ],
-    "name": "BITC-SAMIKR-L",
+    "name": "SAMIK-LAPTOP",
     "vendor": "MICROSOFT CORPORATION",
     "operatingSystem": "Windows Server 2016",
     "macAddresses": [
-      "00:15:5d:3d:ef:e8"
+      "00:11:5d:2d:ef:e6"
     ],
     "type": "DB Server",
     "engineeringStation": false,
