@@ -12,7 +12,7 @@
 RootModule = 'D4IOT.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.0.0.3'
+ModuleVersion = '0.0.0.4'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -30,7 +30,7 @@ CompanyName = 'PS Community'
 Copyright = '(c) 2022 Samik Roy. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'A basic powershell module to connect D4IOT Apis'
+Description = 'A basic powershell module to connect Microsoft Defender for IOT Apis'
 
 # Minimum version of the Windows PowerShell engine required by this module
 PowerShellVersion = '6.0'
@@ -70,10 +70,12 @@ PowerShellVersion = '6.0'
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
 FunctionsToExport = @(
+    'Set-D4IOTUserPassword',
+    'Set-D4IOTUserPasswordByAdmin',
+    'Validate-D4IOTUserCredential',
     'Get-D4IOTDevices',
     'Get-D4IOTDeviceConnections',
     'Get-D4IOTDeviceEvents',
-    'Get-D4IOTDeviceAlerts_Old',
     'Get-D4IOTDeviceAlerts',
     'Get-D4IOTDeviceCves',
     'Get-D4IOTDeviceVulnerabilities',

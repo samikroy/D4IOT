@@ -211,4 +211,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-* Many thanks to anyone whose code was used!
+* Many thanks to anyone whose would like to use and extend !
